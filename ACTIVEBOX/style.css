@@ -1,0 +1,449 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background: #31344e url("img/back.png") center no-repeat;
+  background-size: cover;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  margin-bottom: 39px;
+  border-bottom: 2px solid #4f5168;
+  padding-bottom: 25px;
+}
+
+.header__logo {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 24px;
+  cursor: pointer;
+  margin-top: 38px;
+  margin-left: 19%;
+}
+
+nav {
+  margin-top: 48px;
+  margin-left: 21%;
+}
+
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.topnav a:hover {
+  opacity: 0.7;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+header .main__welcome {
+  color: #fff;
+  text-align: center;
+  padding: 155px 0 282px 0;
+}
+
+header .main__welcome h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+header .main__welcome p {
+  font-size: 18px;
+  padding: 44px 0 83px 0;
+}
+
+.button__block {
+  display: flex;
+  justify-content: center;
+}
+
+.btn__welcome {
+  width: 200px;
+  height: 47px;
+  color: #fff;
+  background-color: #e84545;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.features {
+  background: #fff;
+  padding: 50px 0 125px 0;
+}
+
+.feautures__crads {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 20px;
+}
+
+.feautures__crads h1 {
+  margin-top: 32px;
+}
+
+.feautures__crads p {
+  margin-top: 28px;
+  color: #6c6c6c;
+}
+
+.img {
+  width: 62px;
+  height: 68px;
+  margin-top: 70px;
+}
+
+.main__work {
+  background: #fff;
+  padding-bottom: 101px;
+}
+
+.gallary {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.gallary img {
+  width: 100%;
+  height: 350px;
+}
+
+.main__work img:hover {
+  opacity: 0.7;
+}
+
+.main__team {
+  background: #fff;
+}
+
+.main__team .wrapper {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.photo {
+  background: #b3b2b2;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+
+.card {
+  margin: 0 40px;
+}
+
+.team__cards {
+  display: flex;
+}
+
+.name {
+  font-size: 22px;
+  margin-bottom: 21px;
+}
+
+.position {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #e84545;
+  margin-bottom: 30px;
+}
+
+.about__position {
+  font-size: 14px;
+  color: #80858b;
+  margin-bottom: 35px;
+}
+
+.socials {
+  margin-bottom: 102px;
+}
+
+.socials img {
+  cursor: pointer;
+}
+
+.wrapper-tes {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.testimonial {
+  display: flex;
+}
+
+.mv-100 {
+  min-width: 100%;
+}
+
+.testimonial__right {
+  display: block;
+  background: #53354a;
+  color: #fff;
+  padding: 3% 0 104px 90px;
+}
+
+.testimonial__right h1 {
+  color: #fff;
+  font-style: italic;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 30px;
+}
+.testimonial__right p {
+  color: #fff;
+  margin: 30px 0 50px 0;
+  font-size: 18px;
+}
+
+.testimonial__right ul {
+  margin-left: 50%;
+  list-style: none;
+  padding: 0;
+}
+
+.testimonial__right li {
+  border: 2px solid white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  background-color: #fff;
+  opacity: 0.6;
+}
+
+.testimonial__right .op {
+  opacity: 1;
+}
+
+.wrapper__download {
+  width: 100%;
+  padding: 0;
+}
+
+.download {
+  background: #fff;
+  text-align: center;
+  padding: 100px 0 100px 0;
+ 
+}
+
+.download h1{
+  color: #57595c;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.download p{
+  margin-bottom: 41px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper__footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #3a3e64;
+  padding: 73px 0 109px 0;
+}
+
+.loacation,
+.footer__about {
+  display: flex;
+  flex-direction: column;
+}
+
+.loacation,
+.footer__socials,
+.footer__about {
+  margin-left: 250px;
+}
+
+.loacation h1,
+.footer__socials h1,
+.footer__about h1 {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 22px;
+}
+
+.loacation p,
+.footer__about p {
+  font-size: 14px;
+  color: #9698ac;
+}
+
+.wrapper__copy{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #313454;
+  padding: 34px 0 34px 0;
+}
+
+.copyright p{
+  font-size: 14px;
+  color: #565769;
+}
+
+.copyright p span{
+  color: #fff;
+}
+
+
+@media screen and (max-width: 1500px) {
+  .testimonial__right h1 {
+    font-size: 23px;
+  }
+  .testimonial__right p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1245px) {
+  nav {
+    margin-left: 10%;
+  }
+  .testimonial__right ul {
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    margin-top: -17px;
+    display: block;
+    color: #fff;
+    font-size: 25px;
+  }
+  nav {
+    width: 100%;
+  }
+  .topnav.responsive {
+    position: relative;
+    top: 50px;
+    left: -200px;
+  }
+  header .topnav.responsive {
+    height: 340px;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    top: -50px;
+    right: -200px;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  main .main__welcome {
+    padding: 50px 0 50px 0;
+  }
+  main .main__welcome p {
+    font-size: 14px;
+  }
+  main .main__welcome h1 {
+    font-size: 25px;
+  }
+
+  .feautures__crads {
+    grid-template-columns: auto;
+  }
+  .gallary {
+    grid-template-columns: auto;
+  }
+
+  .team__cards {
+    flex-direction: column;
+  }
+  .card{
+    margin: 0;
+  }
+  .mv-100 {
+    max-width: 100%;
+  }
+  .testimonial {
+    flex-direction: column;
+  }
+  .testimonial__right {
+    text-align: center;
+    margin-left: 0;
+    padding: 118px 0 104px 30px;
+  }
+  .testimonial__right li {
+    text-align: left;
+  }
+  .testimonial__right h1 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .testimonial__right p {
+    font-size: 16px;
+  }
+  .wrapper__footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .loacation,
+  .footer__socials,
+  .footer__about {
+    margin-bottom: 30px;
+    margin-left: 100px;
+  }
+}
